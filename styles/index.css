@@ -62,9 +62,9 @@ nav.menu ul li a:hover {
 .slider .slider-container .slider-box {
     max-width: 1200px;
     position: absolute;
-    left: 100px;
-    top: 50px;
-    transform: translate(-50px, -40px);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     overflow: hidden;
     opacity: 0;
     transition: 0.5s;
@@ -84,9 +84,9 @@ nav.menu ul li a:hover {
     background-image: linear-gradient(to top, #000, transparent);
     border-radius: 5px;
     position: absolute;
-    left: 50px;
-    top: 50px;
-    transform: translate(-50px, -50px);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .slider .slider-box .texto-slider {
