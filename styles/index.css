@@ -54,6 +54,10 @@ nav.menu ul li a:hover {
 
 /* Slider */
 
+.background {
+    background-size: cover;
+}
+
 .slider {
     height: 100vh;
     position: relative;
@@ -69,6 +73,7 @@ nav.menu ul li a:hover {
     position: absolute;
     left: 50%;
     top: 50%;
+    border-radius: 5px;
     transform: translate(-50%, -50%);
     overflow: hidden;
     opacity: 0;
