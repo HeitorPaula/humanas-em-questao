@@ -1,7 +1,10 @@
-let imgSlider = document.querySelectorAll('.slider-container .slider-box');
+let imgSlider = document.querySelectorAll('.slider .slider-container .slider-box');
 let btnProx = document.querySelector('#proxima');
 let btnAnter = document.querySelector('#anterior');
 let btnNav = document.querySelectorAll('.btn-nav-box .btn-nav');
+let backgroundImg = document.querySelector('.background')
+
+backgroundImg.style.backgroundImage = `url(assets/images/img1.png)`;
 
 let contadorImg = imgSlider.length;
 let imgAtiva = 0;
@@ -40,6 +43,7 @@ function mostrarSlider() {
 
     imgSlider[imgAtiva].classList.add('ativo');
     btnNav[imgAtiva].classList.add('ativo');
+    backgroundImg.style.backgroundImage = `url(assets/images/img${imgAtiva + 1}.png)`;
 }
 
 btnNav.forEach((btn, index) => {
