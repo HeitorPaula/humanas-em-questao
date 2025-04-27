@@ -6,7 +6,8 @@ let btnNav = document.querySelectorAll('.btn-nav-box .btn-nav');
 let contadorImg = imgSlider.length;
 let imgAtiva = 0;
 
-setInterval(() => {
+
+let intervalo = setInterval(() => {
     imgAtiva++;
     if (imgAtiva >= contadorImg) {
         imgAtiva = 0;

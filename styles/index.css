@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #EFEAD6;
+    background-color: rgba(0, 0, 0, 0.18);
 }
 
 .interface {
@@ -22,7 +22,7 @@ header {
     height: 130px;
     z-index: 999;
     padding: 20px;
-    background-color: #FFFDF2;
+    background-color: white;
 }
 
 header .interface {
@@ -61,6 +61,8 @@ nav.menu ul li a:hover {
 
 .slider .slider-container .slider-box {
     max-width: 1200px;
+    width: 90%;
+    height: 95%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -132,20 +134,19 @@ nav.menu ul li a:hover {
 .setas {
     width: 100%;
     height: 100%;
-    padding: 0 7%;
+    padding: 0 1%;
     position: absolute;
     top: 0;
     left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 22222;
 }
 
 .setas button {
     width: 40px;
     height: 40px;
-    background-color: #fffdf28e;
+    background-color: #fffdf229;
     border: 0;
     border-radius: 8px;
     cursor: pointer;
@@ -153,17 +154,26 @@ nav.menu ul li a:hover {
     transition: all 0.2s ease;
 }
 
+.setas button i {
+    color: white;
+}
+
 .setas button:hover {
     background-color: white;
+}
+
+.setas button:hover i {
+    color: #000;
 }
 
 /* Butões de Navegação */
 
 .btn-nav-box {
     width: 100%;
+    padding: 20px;
     position: absolute;
     left: 0;
-    bottom: 20px;
+    bottom:-40px;
     z-index: 777777;
 
     display: flex;
@@ -175,16 +185,82 @@ nav.menu ul li a:hover {
 .btn-nav-box .btn-nav {
     width: 30px;
     height: 10px;
-    border: 1px solid #FFFDF2;
+    border: 1px solid black;
     border-radius: 8px;
     cursor: pointer;
     transition: all .2s ease;
 }
 
 .btn-nav-box .btn-nav:hover {
-    background-color: white;
+    background-color: black;
 }
 
 .btn-nav-box .btn-nav.ativo {
+    background-color: black;
+}
+
+/* Main */
+
+main {
     background-color: white;
+    margin-top: 40px;
+}
+
+.introduction {
+    padding: 60px;
+}
+
+/* Modal */
+
+dialog {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: #fffdf200;
+    backdrop-filter: blur(50px);
+}
+
+.organization {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+dialog .line {
+    width: 2px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.500);
+    border-radius: 1px;
+    margin: 0 4%;
+}
+
+dialog ul {
+    list-style: none;
+}
+
+dialog li {
+    margin: 5px 0;
+    text-align: right;
+}
+
+dialog a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.600);
+    transition: all 0.2s ease;
+}
+
+dialog a:hover {
+    color: rgba(255, 255, 255, 0.800);
+}
+
+dialog .pags {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.overfhidden {
+    overflow: hidden;
 }
