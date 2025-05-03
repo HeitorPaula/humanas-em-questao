@@ -112,7 +112,7 @@ nav.menu ul li a:hover {
 }
 
 .slider .slider-box .texto-slider h2 {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 @keyframes animaTexto {
@@ -228,6 +228,7 @@ dialog {
     border-radius: 10px;
     background-color: #fffdf200;
     backdrop-filter: blur(50px);
+    transition: all 0.3s ease-in-out;
 }
 
 .organization {
@@ -243,6 +244,7 @@ dialog .line {
     background-color: rgba(255, 255, 255, 0.500);
     border-radius: 1px;
     margin: 0 4%;
+    transition:  all 0.3s ease;
 }
 
 dialog ul {
