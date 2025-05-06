@@ -103,7 +103,7 @@ nav.menu ul li a:hover {
 .slider .slider-box .texto-slider {
     position: absolute;
     left: 10%;
-    top: 35%;
+    top: 40%;
     color: white;
     z-index: 1;
 
@@ -113,6 +113,7 @@ nav.menu ul li a:hover {
 
 .slider .slider-box .texto-slider h2 {
     font-size: 3rem;
+    width: 120%;
 }
 
 @keyframes animaTexto {
@@ -273,4 +274,59 @@ dialog .pags {
 
 .overfhidden {
     overflow: hidden;
+}
+
+/* Pages */
+
+.pages-img {
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: x-large;
+    text-align: center;
+    color: white;
+}
+
+.pages-img .back-blur {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+}
+
+.pages-img .text-pages {
+    width: 55%;  
+}
+
+.page-img-1 {
+    background-image: url(../assets/images/img1.png);
+}
+
+.page-img-2 {
+    background-image: url(../assets/images/img2.png);
+}
+
+.page-img-3 {
+    background-image: url(../assets/images/img3.png);
+}
+
+.page-img-4 {
+    background-image: url(../assets/images/img4.png);
+}
+
+.page-img-5 {
+    background-image: url(../assets/images/img5.png);
+}
+
+.page-img-6 {
+    background-image: url(../assets/images/img6.png);
+}
+
+.page-img-7 {
+    background-image: url(../assets/images/img7.png);
 }
