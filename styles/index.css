@@ -215,10 +215,6 @@ main {
     background-color: white;
 }
 
-.introduction {
-    padding: 60px;
-}
-
 /* Modal */
 
 dialog {
@@ -329,6 +325,10 @@ dialog .pags {
 
 .page-img-7 {
     background-image: url(../assets/images/img7.png);
+}
+
+.pages-h2 {
+    padding: 60px;
 }
 
 /* Nosso Grupo */
