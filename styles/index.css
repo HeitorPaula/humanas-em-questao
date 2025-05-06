@@ -330,3 +330,27 @@ dialog .pags {
 .page-img-7 {
     background-image: url(../assets/images/img7.png);
 }
+
+/* Nosso Grupo */
+
+.grupo-organization {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.grupo-organization .card {
+    width: 200px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
