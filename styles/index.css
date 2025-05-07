@@ -361,6 +361,14 @@ dialog .pags {
     font-size: medium;
 }
 
+.fonts {
+    padding-bottom: 20px;
+}
+
+.fonts a {
+    color: rgb(139, 139, 139);
+}
+
 
 /* Nosso Grupo */
 
@@ -384,6 +392,12 @@ dialog .pags {
     background-color: white;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.grupo-organization .card img {
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 200px;
 }
 
 /* Footer */
