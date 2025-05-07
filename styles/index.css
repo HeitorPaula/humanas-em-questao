@@ -295,7 +295,7 @@ dialog .pags {
     backdrop-filter: blur(10px);
 }
 
-.pages-img .text-pages {
+.pages-img .text-pages-img {
     width: 55%;  
 }
 
@@ -327,9 +327,40 @@ dialog .pags {
     background-image: url(../assets/images/img7.png);
 }
 
-.pages-h2 {
-    padding: 60px;
+.text-pages .pages-h2 {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 32px;
 }
+
+.text-pages p {
+    font-size: 20px;
+    text-indent: 20px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+.text-pages .text-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.text-pages .text-img img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+}
+
+.text-pages .text-img p {
+    width: 50%;
+    text-align: center;
+    font-weight: 300;
+    font-size: medium;
+}
+
 
 /* Nosso Grupo */
 
@@ -354,3 +385,62 @@ dialog .pags {
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
+
+/* Footer */
+
+footer {
+    background-color: rgba(170, 170, 170, 0.37);
+    height: 260px;
+}
+
+footer .interface {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .footer-nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .line {
+    width: 2px;
+    height: 210px;
+    background-color: rgba(255, 255, 255, 0.500);
+    border-radius: 1px;
+    margin: 0 4%;
+    transition:  all 0.3s ease;
+}
+
+footer li {
+    margin: 1px 0;
+    text-align: right;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.600);
+    transition: all 0.2s ease;
+}
+
+footer a:hover {
+    color: rgba(255, 255, 255, 0.800);
+}
+
+footer .pags {
+    color: white;
+    font-size: 1.5rem;
+}
+
+footer nav ul {
+    list-style: none;
+}
+
+footer .logo img {
+    height: 85px;
+}
+
