@@ -215,6 +215,12 @@ main {
     background-color: white;
 }
 
+.introduction {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 26px;
+}
+
 /* Modal */
 
 dialog {
