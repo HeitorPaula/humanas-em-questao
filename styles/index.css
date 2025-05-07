@@ -398,6 +398,7 @@ dialog .pags {
     height: 100px;
     margin-bottom: 10px;
     border-radius: 200px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* Footer */
